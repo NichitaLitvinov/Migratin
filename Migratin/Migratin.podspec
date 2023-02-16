@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     :type => "Copyright", 
     :text => "Copyright 2019 ProductMadness. All rights reserved."
   }
-  spec.author       = { "Nich" => "Nichita.litvinov@productmadness.com" }
+  spec.author       = { "Nick" => "Nichita.litvinov@productmadness.com" }
   spec.source       = { :git => "git@github.com:NichitaLitvinov/Migratin.git", :tag => spec.version }
   spec.platform     = :ios
   spec.ios.deployment_target  = '9.0'
