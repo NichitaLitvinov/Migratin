@@ -1,8 +1,9 @@
 Pod::Spec.new do |spec|
   spec.name         = "Migratin"
-  spec.version      = 1.0.0
+  spec.version      = '1.0.0'
   spec.summary      = "Migratin"
-  spec.description  = "Test"
+  spec.description  = "Test Migratin Migratin"
+  spec.homepage     = "http://productmadness.com"
   spec.license      = {
     :type => "Copyright", 
     :text => "Copyright 2019 ProductMadness. All rights reserved."
