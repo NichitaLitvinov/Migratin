@@ -6,10 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "JsonCoding.h"
-#import "NSObject+Json.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @interface NSError (Json)
+-(NSDictionary*) toDictionary;
+
 @end
 NS_ASSUME_NONNULL_END
