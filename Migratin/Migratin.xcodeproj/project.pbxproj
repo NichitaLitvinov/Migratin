@@ -10,6 +10,7 @@
 		A4149433299E41B30062BDDA /* Migratin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A414942A299E41B30062BDDA /* Migratin.framework */; };
 		A4149438299E41B30062BDDA /* MigratinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4149437299E41B30062BDDA /* MigratinTests.swift */; };
 		A4149439299E41B30062BDDA /* Migratin.h in Headers */ = {isa = PBXBuildFile; fileRef = A414942D299E41B30062BDDA /* Migratin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4A78780299E5BAD00D3C5D4 /* NSString+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A7877F299E5BAD00D3C5D4 /* NSString+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		A414942D299E41B30062BDDA /* Migratin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Migratin.h; sourceTree = "<group>"; };
 		A4149432299E41B30062BDDA /* MigratinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MigratinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4149437299E41B30062BDDA /* MigratinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratinTests.swift; sourceTree = "<group>"; };
+		A4A7877F299E5BAD00D3C5D4 /* NSString+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				A414942D299E41B30062BDDA /* Migratin.h */,
+				A4A7877F299E5BAD00D3C5D4 /* NSString+Additions.swift */,
 			);
 			path = Migratin;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				TargetAttributes = {
 					A4149429299E41B30062BDDA = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					A4149431299E41B30062BDDA = {
 						CreatedOnToolsVersion = 14.2;
@@ -191,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A78780299E5BAD00D3C5D4 /* NSString+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +336,7 @@
 		A414943D299E41B30062BDDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -357,6 +363,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +372,7 @@
 		A414943E299E41B30062BDDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -399,6 +407,7 @@
 		A4149440299E41B30062BDDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -418,6 +427,7 @@
 		A4149441299E41B30062BDDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
