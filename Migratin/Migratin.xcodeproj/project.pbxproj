@@ -12,6 +12,8 @@
 		A4149439299E41B30062BDDA /* Migratin.h in Headers */ = {isa = PBXBuildFile; fileRef = A414942D299E41B30062BDDA /* Migratin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4A78780299E5BAD00D3C5D4 /* NSString+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A7877F299E5BAD00D3C5D4 /* NSString+Additions.swift */; };
 		A4A787EA299E66F400D3C5D4 /* NSStringAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A787E9299E66F400D3C5D4 /* NSStringAdditionsTests.m */; };
+		A4A787ED299E68B600D3C5D4 /* NSError+Json.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A787EB299E68B600D3C5D4 /* NSError+Json.h */; };
+		A4A787EE299E68B700D3C5D4 /* NSError+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A787EC299E68B600D3C5D4 /* NSError+Json.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		A4149437299E41B30062BDDA /* MigratinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratinTests.swift; sourceTree = "<group>"; };
 		A4A7877F299E5BAD00D3C5D4 /* NSString+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Additions.swift"; sourceTree = "<group>"; };
 		A4A787E9299E66F400D3C5D4 /* NSStringAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditionsTests.m; sourceTree = "<group>"; };
+		A4A787EB299E68B600D3C5D4 /* NSError+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Json.h"; sourceTree = "<group>"; };
+		A4A787EC299E68B600D3C5D4 /* NSError+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Json.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 			children = (
 				A414942D299E41B30062BDDA /* Migratin.h */,
 				A4A7877F299E5BAD00D3C5D4 /* NSString+Additions.swift */,
+				A4A787EB299E68B600D3C5D4 /* NSError+Json.h */,
+				A4A787EC299E68B600D3C5D4 /* NSError+Json.m */,
 			);
 			path = Migratin;
 			sourceTree = "<group>";
@@ -95,6 +101,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A787ED299E68B600D3C5D4 /* NSError+Json.h in Headers */,
 				A4149439299E41B30062BDDA /* Migratin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4A78780299E5BAD00D3C5D4 /* NSString+Additions.swift in Sources */,
+				A4A787EE299E68B700D3C5D4 /* NSError+Json.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
