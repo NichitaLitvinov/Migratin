@@ -11,6 +11,7 @@
 		A4149438299E41B30062BDDA /* MigratinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4149437299E41B30062BDDA /* MigratinTests.swift */; };
 		A4149439299E41B30062BDDA /* Migratin.h in Headers */ = {isa = PBXBuildFile; fileRef = A414942D299E41B30062BDDA /* Migratin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4A78780299E5BAD00D3C5D4 /* NSString+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A7877F299E5BAD00D3C5D4 /* NSString+Additions.swift */; };
+		A4A787EA299E66F400D3C5D4 /* NSStringAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A787E9299E66F400D3C5D4 /* NSStringAdditionsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		A4149432299E41B30062BDDA /* MigratinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MigratinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4149437299E41B30062BDDA /* MigratinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratinTests.swift; sourceTree = "<group>"; };
 		A4A7877F299E5BAD00D3C5D4 /* NSString+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Additions.swift"; sourceTree = "<group>"; };
+		A4A787E9299E66F400D3C5D4 /* NSStringAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditionsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				A4149437299E41B30062BDDA /* MigratinTests.swift */,
+				A4A787E9299E66F400D3C5D4 /* NSStringAdditionsTests.m */,
 			);
 			path = MigratinTests;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 					};
 					A4149431299E41B30062BDDA = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -204,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4149438299E41B30062BDDA /* MigratinTests.swift in Sources */,
+				A4A787EA299E66F400D3C5D4 /* NSStringAdditionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,10 +413,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = asd.MigratinTests;
@@ -419,6 +430,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -428,10 +440,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = asd.MigratinTests;
