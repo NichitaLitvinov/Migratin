@@ -10,6 +10,9 @@
 		A4149433299E41B30062BDDA /* Migratin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A414942A299E41B30062BDDA /* Migratin.framework */; };
 		A4149438299E41B30062BDDA /* MigratinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4149437299E41B30062BDDA /* MigratinTests.swift */; };
 		A4149439299E41B30062BDDA /* Migratin.h in Headers */ = {isa = PBXBuildFile; fileRef = A414942D299E41B30062BDDA /* Migratin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A479579729A38E4B005D3686 /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = A479579629A38DF2005D3686 /* NSString+Additions.h */; };
+		A479579929A38E63005D3686 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A479579829A38E63005D3686 /* NSString+Additions.m */; };
+		A479579B29A38EEA005D3686 /* OBJCNSStringAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A479579A29A38EEA005D3686 /* OBJCNSStringAdditionsTests.m */; };
 		A4A78780299E5BAD00D3C5D4 /* NSString+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A7877F299E5BAD00D3C5D4 /* NSString+Additions.swift */; };
 		A4A787EA299E66F400D3C5D4 /* NSStringAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A787E9299E66F400D3C5D4 /* NSStringAdditionsTests.m */; };
 		A4A787ED299E68B600D3C5D4 /* NSError+Json.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A787EB299E68B600D3C5D4 /* NSError+Json.h */; };
@@ -31,6 +34,9 @@
 		A414942D299E41B30062BDDA /* Migratin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Migratin.h; sourceTree = "<group>"; };
 		A4149432299E41B30062BDDA /* MigratinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MigratinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4149437299E41B30062BDDA /* MigratinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigratinTests.swift; sourceTree = "<group>"; };
+		A479579629A38DF2005D3686 /* NSString+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		A479579829A38E63005D3686 /* NSString+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		A479579A29A38EEA005D3686 /* OBJCNSStringAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBJCNSStringAdditionsTests.m; sourceTree = "<group>"; };
 		A4A7877F299E5BAD00D3C5D4 /* NSString+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Additions.swift"; sourceTree = "<group>"; };
 		A4A787E9299E66F400D3C5D4 /* NSStringAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditionsTests.m; sourceTree = "<group>"; };
 		A4A787EB299E68B600D3C5D4 /* NSError+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Json.h"; sourceTree = "<group>"; };
@@ -81,6 +87,8 @@
 				A4A7877F299E5BAD00D3C5D4 /* NSString+Additions.swift */,
 				A4A787EB299E68B600D3C5D4 /* NSError+Json.h */,
 				A4A787EC299E68B600D3C5D4 /* NSError+Json.m */,
+				A479579629A38DF2005D3686 /* NSString+Additions.h */,
+				A479579829A38E63005D3686 /* NSString+Additions.m */,
 			);
 			path = Migratin;
 			sourceTree = "<group>";
@@ -90,6 +98,7 @@
 			children = (
 				A4149437299E41B30062BDDA /* MigratinTests.swift */,
 				A4A787E9299E66F400D3C5D4 /* NSStringAdditionsTests.m */,
+				A479579A29A38EEA005D3686 /* OBJCNSStringAdditionsTests.m */,
 			);
 			path = MigratinTests;
 			sourceTree = "<group>";
@@ -102,6 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4A787ED299E68B600D3C5D4 /* NSError+Json.h in Headers */,
+				A479579729A38E4B005D3686 /* NSString+Additions.h in Headers */,
 				A4149439299E41B30062BDDA /* Migratin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +218,7 @@
 			files = (
 				A4A78780299E5BAD00D3C5D4 /* NSString+Additions.swift in Sources */,
 				A4A787EE299E68B700D3C5D4 /* NSError+Json.m in Sources */,
+				A479579929A38E63005D3686 /* NSString+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4149438299E41B30062BDDA /* MigratinTests.swift in Sources */,
+				A479579B29A38EEA005D3686 /* OBJCNSStringAdditionsTests.m in Sources */,
 				A4A787EA299E66F400D3C5D4 /* NSStringAdditionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

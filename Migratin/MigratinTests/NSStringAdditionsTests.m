@@ -22,9 +22,9 @@
     
     char *asd = [str toCString];
     
-    NSString *new = [NSString stringWithCStringWithCString:asd];
+    NSString *neww = [NSString stringWithCString:asd];
     
-    XCTAssertEqualObjects(str, new);
+    XCTAssertEqualObjects(str, neww);
     
 }
 

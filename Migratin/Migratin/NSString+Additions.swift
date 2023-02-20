@@ -8,7 +8,7 @@
 import Foundation
 
 public extension NSString {
-    @objc class func stringWithCString(cString: UnsafeMutablePointer<CChar>?) -> NSString? {
+    @objc class func stringWith(cString: UnsafeMutablePointer<CChar>?) -> NSString? {
         guard let cString = cString else { return nil }
         return NSString(cString: cString, encoding: NSUTF8StringEncoding)
     }
